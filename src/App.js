@@ -41,10 +41,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <main>
-        {messages.map((message) => (
-          <Message key={message.id} message={message} />
-        ))}
+      <main className="App-content">
+        <div className="App-content--messages">
+          {messages.map((message) => (
+            <div>
+              <Message key={message.id} message={message} />
+            </div>
+          ))}
+        </div>
         <MessageForm
           message={newMessage}
           handleSubmit={handleSubmit}
