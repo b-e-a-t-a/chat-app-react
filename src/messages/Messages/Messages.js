@@ -19,7 +19,7 @@ function Messages({ messages })  {
     const previousMessage = messages[idx - 1];
     const message = messages[idx];
 
-    if (idx == 0) return true;
+    if (idx === 0) return true;
 
     return (
       differenceInHours(message.datetime, previousMessage.datetime) >= numberOfHoursToDisplay
