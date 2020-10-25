@@ -1,3 +1,10 @@
+## Chat project
+
+React (hooks), Firebase db, date-fns.
+
+Project published at: https://b-e-a-t-a.github.io/chat-app-react/.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
