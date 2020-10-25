@@ -20,6 +20,7 @@
 
 .message--time {
   font-weight: normal;
+  opacity: .7;
 }
 
 .MessageForm {
